@@ -1,6 +1,6 @@
 <h1> Sistema Guardian  </h1>
 
-<p> Guardian Sistema Para Controle de Mercadorias de Alto Risco  </p>
+<p> Guardian Sistema Para Controle Produtos de Alto Risco  </p>
 
 
 
