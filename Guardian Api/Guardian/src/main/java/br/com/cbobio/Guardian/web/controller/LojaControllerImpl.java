@@ -1,16 +1,13 @@
-/*
- * Copyright (c) 2026, Atacadão S.A. and/or its affiliates. All rights reserved.
- */
 
 package br.com.cbobio.Guardian.web.controller;
 
-import com.atacadao.Guardian.service.LojaService;
-import com.atacadao.Guardian.web.controller.endpoint.ILojaController;
-import com.atacadao.Guardian.web.dto.request.loja.FilterLojaDto;
-import com.atacadao.Guardian.web.dto.request.loja.LojaRequestDto;
-import com.atacadao.Guardian.web.dto.response.loja.LojaResponseDto;
-import com.atacadao.Guardian.web.interceptor.ApiResponseData;
-import com.atacadao.Guardian.web.interceptor.DefaultApiResponse;
+import br.com.cbobio.Guardian.service.LojaService;
+import br.com.cbobio.Guardian.web.controller.endpoint.ILojaController;
+import br.com.cbobio.Guardian.web.dto.request.loja.FilterLojaDto;
+import br.com.cbobio.Guardian.web.dto.request.loja.LojaRequestDto;
+import br.com.cbobio.Guardian.web.dto.response.loja.LojaResponseDto;
+import br.com.cbobio.Guardian.web.interceptor.ApiResponseData;
+import br.com.cbobio.Guardian.web.interceptor.DefaultApiResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

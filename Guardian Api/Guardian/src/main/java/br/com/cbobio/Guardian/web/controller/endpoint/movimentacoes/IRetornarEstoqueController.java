@@ -1,11 +1,9 @@
-/*
- * Copyright (c) 2026, Atacadão S.A. and/or its affiliates. All rights reserved.
- */
 
 package br.com.cbobio.Guardian.web.controller.endpoint.movimentacoes;
 
 
-import com.atacadao.Guardian.web.interceptor.DefaultApiResponse;
+
+import br.com.cbobio.Guardian.web.interceptor.DefaultApiResponse;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;

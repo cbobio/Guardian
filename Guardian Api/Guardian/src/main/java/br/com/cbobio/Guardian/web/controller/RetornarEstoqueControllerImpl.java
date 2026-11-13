@@ -1,13 +1,10 @@
-/*
- * Copyright (c) 2026, Atacadão S.A. and/or its affiliates. All rights reserved.
- */
 
 package br.com.cbobio.Guardian.web.controller;
 
-import com.atacadao.Guardian.service.MovimentacaoProdutoService;
-import com.atacadao.Guardian.web.controller.endpoint.movimentacoes.IRetornarEstoqueController;
-import com.atacadao.Guardian.web.interceptor.ApiResponseData;
-import com.atacadao.Guardian.web.interceptor.DefaultApiResponse;
+import br.com.cbobio.Guardian.service.MovimentacaoProdutoService;
+import br.com.cbobio.Guardian.web.controller.endpoint.movimentacoes.IRetornarEstoqueController;
+import br.com.cbobio.Guardian.web.interceptor.ApiResponseData;
+import br.com.cbobio.Guardian.web.interceptor.DefaultApiResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

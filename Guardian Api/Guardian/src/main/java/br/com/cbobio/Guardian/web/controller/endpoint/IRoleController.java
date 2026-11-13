@@ -1,12 +1,9 @@
-/*
- * Copyright (c) 2026, Atacadão S.A. and/or its affiliates. All rights reserved.
- */
 
 package br.com.cbobio.Guardian.web.controller.endpoint;
 
-import com.atacadao.Guardian.web.dto.request.dtoRole.RoleRequestDto;
-import com.atacadao.Guardian.web.dto.response.dtoRole.RoleResponseDto;
-import com.atacadao.Guardian.web.interceptor.DefaultApiResponse;
+import br.com.cbobio.Guardian.web.dto.request.dtoRole.RoleRequestDto;
+import br.com.cbobio.Guardian.web.dto.response.dtoRole.RoleResponseDto;
+import br.com.cbobio.Guardian.web.interceptor.DefaultApiResponse;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

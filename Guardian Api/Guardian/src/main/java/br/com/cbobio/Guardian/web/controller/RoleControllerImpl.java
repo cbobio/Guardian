@@ -1,15 +1,12 @@
-/*
- * Copyright (c) 2026, Atacadão S.A. and/or its affiliates. All rights reserved.
- */
 
 package br.com.cbobio.Guardian.web.controller;
 
-import com.atacadao.Guardian.service.RoleService;
-import com.atacadao.Guardian.web.controller.endpoint.IRoleController;
-import com.atacadao.Guardian.web.dto.request.dtoRole.RoleRequestDto;
-import com.atacadao.Guardian.web.dto.response.dtoRole.RoleResponseDto;
-import com.atacadao.Guardian.web.interceptor.ApiResponseData;
-import com.atacadao.Guardian.web.interceptor.DefaultApiResponse;
+import br.com.cbobio.Guardian.service.RoleService;
+import br.com.cbobio.Guardian.web.controller.endpoint.IRoleController;
+import br.com.cbobio.Guardian.web.dto.request.dtoRole.RoleRequestDto;
+import br.com.cbobio.Guardian.web.dto.response.dtoRole.RoleResponseDto;
+import br.com.cbobio.Guardian.web.interceptor.ApiResponseData;
+import br.com.cbobio.Guardian.web.interceptor.DefaultApiResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
