@@ -4,15 +4,15 @@
 
 package br.com.cbobio.Guardian.service;
 
-import com.atacadao.Guardian.model.entity.TbEstoque;
-import com.atacadao.Guardian.model.entity.TbLoja;
-import com.atacadao.Guardian.model.entity.TbProduto;
-import com.atacadao.Guardian.model.repository.EstoqueRepository;
-import com.atacadao.Guardian.model.repository.LojaRepository;
-import com.atacadao.Guardian.model.repository.ProdutoRepository;
-import com.atacadao.Guardian.web.dto.mapper.EstoqueMapper;
-import com.atacadao.Guardian.web.dto.request.estoque.EstoqueRequestDto;
-import com.atacadao.Guardian.web.dto.response.estoque.EstoqueResponseDto;
+import br.com.cbobio.Guardian.model.entity.TbEstoque;
+import br.com.cbobio.Guardian.model.entity.TbLoja;
+import br.com.cbobio.Guardian.model.entity.TbProduto;
+import br.com.cbobio.Guardian.model.repository.EstoqueRepository;
+import br.com.cbobio.Guardian.model.repository.LojaRepository;
+import br.com.cbobio.Guardian.model.repository.ProdutoRepository;
+import br.com.cbobio.Guardian.web.dto.mapper.EstoqueMapper;
+import br.com.cbobio.Guardian.web.dto.request.estoque.EstoqueRequestDto;
+import br.com.cbobio.Guardian.web.dto.response.estoque.EstoqueResponseDto;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

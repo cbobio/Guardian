@@ -4,8 +4,6 @@
 
 package br.com.cbobio.Guardian.model.entity;
 
-import com.atacadao.Guardian.model.entity.BaseEntity;
-import com.atacadao.Guardian.model.entity.TbCategoria;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.DecimalMin;
 import jakarta.validation.constraints.NotBlank;

@@ -4,9 +4,10 @@
 
 package br.com.cbobio.Guardian.model.entity;
 
-import com.atacadao.Guardian.enums.MotivoMovimentacao;
-import com.atacadao.Guardian.machine.enums.enumEvent.MachineEventos;
-import com.atacadao.Guardian.machine.enums.enumState.MachineEstados;
+
+import br.com.cbobio.Guardian.enums.MotivoMovimentacao;
+import br.com.cbobio.Guardian.machine.enums.enumEvent.MachineEventos;
+import br.com.cbobio.Guardian.machine.enums.enumState.MachineEstados;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;

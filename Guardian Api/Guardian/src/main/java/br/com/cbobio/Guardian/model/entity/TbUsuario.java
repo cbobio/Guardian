@@ -4,7 +4,6 @@
 
 package br.com.cbobio.Guardian.model.entity;
 
-import com.atacadao.Guardian.model.entity.BaseEntity;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

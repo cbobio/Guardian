@@ -1,7 +1,7 @@
 
 package br.com.cbobio.Guardian.model.repository;
 
-import com.atacadao.Guardian.model.entity.TbUsuario;
+import br.com.cbobio.Guardian.model.entity.TbUsuario;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.stereotype.Repository;

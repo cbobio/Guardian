@@ -1,11 +1,7 @@
-/*
- * Copyright (c) 2026, Atacadão S.A. and/or its affiliates. All rights reserved.
- */
 
 package br.com.cbobio.Guardian.model.entity;
 
-import com.atacadao.Guardian.model.entity.BaseEntity;
-import com.atacadao.Guardian.model.entity.TbProduto;
+
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.PositiveOrZero;

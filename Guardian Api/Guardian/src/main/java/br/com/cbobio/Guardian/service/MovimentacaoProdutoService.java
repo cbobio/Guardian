@@ -4,17 +4,18 @@
 
 package br.com.cbobio.Guardian.service;
 
-import com.atacadao.Guardian.machine.enums.enumEvent.MachineEventos;
-import com.atacadao.Guardian.machine.enums.enumState.MachineEstados;
-import com.atacadao.Guardian.machine.guard.MachineHeaders;
-import com.atacadao.Guardian.model.entity.TbMovimentacaoProduto;
-import com.atacadao.Guardian.model.repository.MovimentacaoProdutoRepository;
-import com.atacadao.Guardian.service.exception.ConflitoException;
-import com.atacadao.Guardian.service.exception.QuantidadeSolicitadaException;
-import com.atacadao.Guardian.service.redis.MovimentacaoProdutoCacheDto;
-import com.atacadao.Guardian.service.redis.RedisService;
-import com.atacadao.Guardian.web.dto.mapper.MovimentacaoProdutoMapper;
-import com.atacadao.Guardian.web.dto.response.movimentacao.MovimentacaoProdutoResponseDto;
+
+import br.com.cbobio.Guardian.machine.enums.enumEvent.MachineEventos;
+import br.com.cbobio.Guardian.machine.enums.enumState.MachineEstados;
+import br.com.cbobio.Guardian.machine.guard.MachineHeaders;
+import br.com.cbobio.Guardian.model.entity.TbMovimentacaoProduto;
+import br.com.cbobio.Guardian.model.repository.MovimentacaoProdutoRepository;
+import br.com.cbobio.Guardian.service.exception.ConflitoException;
+import br.com.cbobio.Guardian.service.exception.QuantidadeSolicitadaException;
+import br.com.cbobio.Guardian.service.redis.MovimentacaoProdutoCacheDto;
+import br.com.cbobio.Guardian.service.redis.RedisService;
+import br.com.cbobio.Guardian.web.dto.mapper.MovimentacaoProdutoMapper;
+import br.com.cbobio.Guardian.web.dto.response.movimentacao.MovimentacaoProdutoResponseDto;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Page;

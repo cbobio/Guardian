@@ -4,8 +4,7 @@
 
 package br.com.cbobio.Guardian.model.entity;
 
-import com.atacadao.Guardian.enums.Roles;
-import com.atacadao.Guardian.model.entity.BaseEntity;
+import br.com.cbobio.Guardian.enums.Roles;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

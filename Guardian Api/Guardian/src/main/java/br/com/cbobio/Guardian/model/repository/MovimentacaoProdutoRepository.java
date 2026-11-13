@@ -1,12 +1,10 @@
-/*
- * Copyright (c) 2026, Atacadão S.A. and/or its affiliates. All rights reserved.
- */
+
 
 package br.com.cbobio.Guardian.model.repository;
 
-import com.atacadao.Guardian.machine.enums.enumEvent.MachineEventos;
-import com.atacadao.Guardian.machine.enums.enumState.MachineEstados;
-import com.atacadao.Guardian.model.entity.TbMovimentacaoProduto;
+import br.com.cbobio.Guardian.machine.enums.enumEvent.MachineEventos;
+import br.com.cbobio.Guardian.machine.enums.enumState.MachineEstados;
+import br.com.cbobio.Guardian.model.entity.TbMovimentacaoProduto;
 import jakarta.persistence.LockModeType;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Lock;

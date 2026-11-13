@@ -1,20 +1,18 @@
-/*
- * Copyright (c) 2026, Atacadão S.A. and/or its affiliates. All rights reserved.
- */
 
 package br.com.cbobio.Guardian.machine.guard.retiradaGuard;
 
-import com.atacadao.Guardian.machine.enums.enumEvent.MachineEventos;
-import com.atacadao.Guardian.machine.enums.enumState.MachineEstados;
-import com.atacadao.Guardian.machine.guard.MachineHeaders;
-import com.atacadao.Guardian.model.entity.TbEstoque;
-import com.atacadao.Guardian.model.entity.TbLoja;
-import com.atacadao.Guardian.model.entity.TbProduto;
-import com.atacadao.Guardian.model.entity.TbUsuario;
-import com.atacadao.Guardian.model.repository.EstoqueRepository;
-import com.atacadao.Guardian.model.repository.LojaRepository;
-import com.atacadao.Guardian.model.repository.ProdutoRepository;
-import com.atacadao.Guardian.model.repository.UsuarioRepository;
+
+import br.com.cbobio.Guardian.machine.enums.enumEvent.MachineEventos;
+import br.com.cbobio.Guardian.machine.enums.enumState.MachineEstados;
+import br.com.cbobio.Guardian.machine.guard.MachineHeaders;
+import br.com.cbobio.Guardian.model.entity.TbEstoque;
+import br.com.cbobio.Guardian.model.entity.TbLoja;
+import br.com.cbobio.Guardian.model.entity.TbProduto;
+import br.com.cbobio.Guardian.model.entity.TbUsuario;
+import br.com.cbobio.Guardian.model.repository.EstoqueRepository;
+import br.com.cbobio.Guardian.model.repository.LojaRepository;
+import br.com.cbobio.Guardian.model.repository.ProdutoRepository;
+import br.com.cbobio.Guardian.model.repository.UsuarioRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.statemachine.StateContext;
 import org.springframework.statemachine.guard.Guard;

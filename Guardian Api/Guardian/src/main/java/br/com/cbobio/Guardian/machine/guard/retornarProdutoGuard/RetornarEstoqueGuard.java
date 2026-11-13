@@ -1,14 +1,11 @@
-/*
- * Copyright (c) 2026, Atacadão S.A. and/or its affiliates. All rights reserved.
-*/
 
 package br.com.cbobio.Guardian.machine.guard.retornarProdutoGuard;
 
-import com.atacadao.Guardian.machine.enums.enumEvent.MachineEventos;
-import com.atacadao.Guardian.machine.enums.enumState.MachineEstados;
-import com.atacadao.Guardian.machine.guard.MachineHeaders;
-import com.atacadao.Guardian.model.entity.TbMovimentacaoProduto;
-import com.atacadao.Guardian.model.repository.MovimentacaoProdutoRepository;
+import br.com.cbobio.Guardian.machine.enums.enumEvent.MachineEventos;
+import br.com.cbobio.Guardian.machine.enums.enumState.MachineEstados;
+import br.com.cbobio.Guardian.machine.guard.MachineHeaders;
+import br.com.cbobio.Guardian.model.entity.TbMovimentacaoProduto;
+import br.com.cbobio.Guardian.model.repository.MovimentacaoProdutoRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.statemachine.StateContext;

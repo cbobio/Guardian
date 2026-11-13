@@ -4,20 +4,21 @@
 
 package br.com.cbobio.Guardian.service;
 
-import com.atacadao.Guardian.model.entity.TbCategoria;
-import com.atacadao.Guardian.model.entity.TbProduto;
-import com.atacadao.Guardian.model.repository.CategoriaRepository;
-import com.atacadao.Guardian.model.repository.ProdutoRepository;
-import com.atacadao.Guardian.model.repository.specification.ProdutoSpecification;
-import com.atacadao.Guardian.web.dto.mapper.ProdutoMapper;
-import com.atacadao.Guardian.web.dto.request.produto.FilterProdutoDto;
-import com.atacadao.Guardian.web.dto.request.produto.ProdutoRequestDto;
-import com.atacadao.Guardian.web.dto.response.produto.ProdutoResponseDto;
+
+import br.com.cbobio.Guardian.model.entity.TbCategoria;
+import br.com.cbobio.Guardian.model.entity.TbEstoque;
+import br.com.cbobio.Guardian.model.entity.TbLoja;
+import br.com.cbobio.Guardian.model.entity.TbProduto;
+import br.com.cbobio.Guardian.model.repository.CategoriaRepository;
+import br.com.cbobio.Guardian.model.repository.EstoqueRepository;
+import br.com.cbobio.Guardian.model.repository.LojaRepository;
+import br.com.cbobio.Guardian.model.repository.ProdutoRepository;
+import br.com.cbobio.Guardian.model.repository.specification.ProdutoSpecification;
+import br.com.cbobio.Guardian.web.dto.mapper.ProdutoMapper;
+import br.com.cbobio.Guardian.web.dto.request.produto.FilterProdutoDto;
+import br.com.cbobio.Guardian.web.dto.request.produto.ProdutoRequestDto;
+import br.com.cbobio.Guardian.web.dto.response.produto.ProdutoResponseDto;
 import jakarta.persistence.EntityNotFoundException;
-import com.atacadao.Guardian.model.entity.TbEstoque;
-import com.atacadao.Guardian.model.entity.TbLoja;
-import com.atacadao.Guardian.model.repository.EstoqueRepository;
-import com.atacadao.Guardian.model.repository.LojaRepository;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;

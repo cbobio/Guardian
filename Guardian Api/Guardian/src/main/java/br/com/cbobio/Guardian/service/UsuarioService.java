@@ -4,15 +4,15 @@
 
 package br.com.cbobio.Guardian.service;
 
-import com.atacadao.Guardian.model.entity.TbUsuario;
-import com.atacadao.Guardian.model.repository.LojaRepository;
-import com.atacadao.Guardian.model.repository.RoleRepository;
-import com.atacadao.Guardian.model.repository.UsuarioRepository;
-import com.atacadao.Guardian.model.repository.specification.UsuarioSpecification;
-import com.atacadao.Guardian.web.dto.mapper.UsuarioMapper;
-import com.atacadao.Guardian.web.dto.request.usuario.FilterUsuarioDto;
-import com.atacadao.Guardian.web.dto.request.usuario.UsuarioRequestDto;
-import com.atacadao.Guardian.web.dto.response.usuario.UsuarioResponseDto;
+import br.com.cbobio.Guardian.model.entity.TbUsuario;
+import br.com.cbobio.Guardian.model.repository.LojaRepository;
+import br.com.cbobio.Guardian.model.repository.RoleRepository;
+import br.com.cbobio.Guardian.model.repository.UsuarioRepository;
+import br.com.cbobio.Guardian.model.repository.specification.UsuarioSpecification;
+import br.com.cbobio.Guardian.web.dto.mapper.UsuarioMapper;
+import br.com.cbobio.Guardian.web.dto.request.usuario.FilterUsuarioDto;
+import br.com.cbobio.Guardian.web.dto.request.usuario.UsuarioRequestDto;
+import br.com.cbobio.Guardian.web.dto.response.usuario.UsuarioResponseDto;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;

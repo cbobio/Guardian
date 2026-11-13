@@ -1,26 +1,17 @@
-/*
- * Copyright (c) 2026, Atacadão S.A. and/or its affiliates. All rights reserved.
- */
 
 package br.com.cbobio.Guardian.machine.config;
 
-import com.atacadao.Guardian.machine.action.AvariarProdutoAction;
-import com.atacadao.Guardian.machine.action.DevolverProdutoAction;
-import com.atacadao.Guardian.machine.action.EntregarProdutoAction;
-import com.atacadao.Guardian.machine.action.PerderProdutoAction;
-import com.atacadao.Guardian.machine.action.RetirarProdutoAction;
-import com.atacadao.Guardian.machine.action.RetornarEstoqueAction;
-import com.atacadao.Guardian.machine.action.FinalizarProdutoAction;
-import com.atacadao.Guardian.machine.enums.enumEvent.MachineEventos;
-import com.atacadao.Guardian.machine.enums.enumState.MachineEstados;
-import com.atacadao.Guardian.machine.guard.avariarGuard.AvariarProdutoGuard;
-import com.atacadao.Guardian.machine.guard.devolverProduto.DevolverProdutoGuard;
-import com.atacadao.Guardian.machine.guard.entregaGuard.EntregarProdutoGuard;
-import com.atacadao.Guardian.machine.guard.perdaGuard.PerderProdutoGuard;
-import com.atacadao.Guardian.machine.guard.retiradaGuard.RetirarProdutoGuard;
-import com.atacadao.Guardian.machine.guard.finalizarProduto.FinalizarProdutoGuard;
 
-import com.atacadao.Guardian.machine.guard.retornarProdutoGuard.RetornarEstoqueGuard;
+import br.com.cbobio.Guardian.machine.action.*;
+import br.com.cbobio.Guardian.machine.enums.enumEvent.MachineEventos;
+import br.com.cbobio.Guardian.machine.enums.enumState.MachineEstados;
+import br.com.cbobio.Guardian.machine.guard.avariarGuard.AvariarProdutoGuard;
+import br.com.cbobio.Guardian.machine.guard.devolverProduto.DevolverProdutoGuard;
+import br.com.cbobio.Guardian.machine.guard.entregaGuard.EntregarProdutoGuard;
+import br.com.cbobio.Guardian.machine.guard.finalizarProduto.FinalizarProdutoGuard;
+import br.com.cbobio.Guardian.machine.guard.perdaGuard.PerderProdutoGuard;
+import br.com.cbobio.Guardian.machine.guard.retiradaGuard.RetirarProdutoGuard;
+import br.com.cbobio.Guardian.machine.guard.retornarProdutoGuard.RetornarEstoqueGuard;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.statemachine.config.EnableStateMachineFactory;

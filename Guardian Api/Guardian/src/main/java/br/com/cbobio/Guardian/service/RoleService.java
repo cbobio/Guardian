@@ -4,11 +4,11 @@
 
 package br.com.cbobio.Guardian.service;
 
-import com.atacadao.Guardian.model.entity.TbRole;
-import com.atacadao.Guardian.model.repository.RoleRepository;
-import com.atacadao.Guardian.web.dto.mapper.RoleMapper;
-import com.atacadao.Guardian.web.dto.request.dtoRole.RoleRequestDto;
-import com.atacadao.Guardian.web.dto.response.dtoRole.RoleResponseDto;
+import br.com.cbobio.Guardian.model.entity.TbRole;
+import br.com.cbobio.Guardian.model.repository.RoleRepository;
+import br.com.cbobio.Guardian.web.dto.mapper.RoleMapper;
+import br.com.cbobio.Guardian.web.dto.request.dtoRole.RoleRequestDto;
+import br.com.cbobio.Guardian.web.dto.response.dtoRole.RoleResponseDto;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

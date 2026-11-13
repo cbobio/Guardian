@@ -1,11 +1,9 @@
-/*
- * Copyright (c) 2026, Atacadão S.A. and/or its affiliates. All rights reserved.
- */
 
 package br.com.cbobio.Guardian.model.repository.specification;
 
-import com.atacadao.Guardian.model.entity.TbProduto;
-import com.atacadao.Guardian.web.dto.request.produto.FilterProdutoDto;
+
+import br.com.cbobio.Guardian.model.entity.TbProduto;
+import br.com.cbobio.Guardian.web.dto.request.produto.FilterProdutoDto;
 import org.springframework.data.jpa.domain.Specification;
 
 public class ProdutoSpecification {
